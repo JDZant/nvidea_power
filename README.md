@@ -26,10 +26,18 @@ git clone https://github.com/yourusername/nvidea_power.git
 To allow this application to run without entering a password each time, you can configure sudoers file:
 Open a terminal and type:
 
-````
+```bash
 sudo visudo
-````
+```
 
 ```
 yourusername ALL=(ALL) NOPASSWD: /path/to/main.py
 ```
+
+##Running the Application
+To run this application, you'll need to execute the GUI with sudo privileges since it interacts with hardware settings:
+```bash
+sudo python3 path/to/nvidia_power
+```
+
+Alternative way to run the application is to make it executable with PyInstaller
