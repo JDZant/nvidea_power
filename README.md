@@ -7,7 +7,7 @@ This application provides a graphical user interface to adjust the power limits 
 - **GUI to Adjust Power Limits**: Easily adjust the power limits of your NVIDIA GPU through a user-friendly slider.
 - **Real-Time Feedback**: View current power settings directly within the application.
 
-![image](https://github.com/JDZant/nvidea_power/assets/67706026/cc9e42cb-e77a-45b8-b80c-700594394bd3)
+![image](https://github.com/JDZant/nvidia_power/assets/67706026/cc9e42cb-e77a-45b8-b80c-700594394bd3)
 
 ## Prerequisites
 
@@ -19,7 +19,7 @@ This application provides a graphical user interface to adjust the power limits 
 Clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/yourusername/nvidea_power.git
+git clone https://github.com/yourusername/nvidia_power.git
 ```
 
 ## Configuring Sudo for GUI
